@@ -70,7 +70,7 @@ vector<Rect> get_annotations(Mat);
 
 // Public parameters
 Mat image;
-int roi_x0 = 0, roi_y0 = 0, roi_x1 = 0, roi_y1 = 0, num_of_rec = 0;
+int roi_x0 = 0, roi_y0 = 0, roi_x1 = 0, roi_y1 = 0, num_of_rec = 0, jjj=0;
 bool start_draw = false, stop = false;
 
 // Window name for visualisation purposes
